@@ -44,9 +44,9 @@ def turn(board)
     move(board, index, current_player = "X")
   end
   display_board(board)
-  # else
-  #   turn(board)
-  #end
+  else
+    turn(board)
+  end
 end
 
 def turn_count(board)
@@ -55,7 +55,7 @@ def turn_count(board)
     if marker == "X" || marker == "O"
       return turn +=1
     end
-  end 
+  end
     return turn
 end
 
