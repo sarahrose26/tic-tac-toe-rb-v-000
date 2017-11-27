@@ -55,6 +55,7 @@ def turn_count(board)
     if marker == "X" || marker == "O"
       return turn +=1
     end
+  end 
     return turn
 end
 
