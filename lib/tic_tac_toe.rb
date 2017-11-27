@@ -44,9 +44,9 @@ def turn(board)
     move(board, index, current_player = "X")
   end
   display_board(board)
-  else
+  # else
     turn(board)
-  end
+  # end
 end
 
 def turn_count(board)
